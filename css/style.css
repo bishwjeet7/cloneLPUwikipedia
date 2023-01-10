@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'sans-serif';
+}
+body p{
+    margin-top: 8px;
+    color: rgb(62, 61, 61);
+}
+a{
+    color: rgb(88, 125, 135);
+    text-decoration: none;
+}
+#TopmenuBar{
+    width: 100%;
+    float: right;
+    font-size: smaller;
+    background-color: rgb(235, 232, 232);
+}
+#TopmenuBar ul{
+    float: right;
+    list-style-type: none;
+    display: flex;
+}
+#TopmenuBar ul li{
+    padding: 6px;
+}
+.colorLightblue{
+    color: rgb(75, 114, 241);
+}
+.searchBox{
+    width: 100%;
+    display: flex;
+}
+.articletalk{
+    display: flex;
+    float: left;
+    width: 100%;
+}
+.searchBoxRead{
+    width: 30%;
+    display: flex;
+    float: right;
+}
+.searchBoxRead p{
+    padding: 5px;
+}
+#mainBox{
+    width: 100%;
+    display: flex;
+}
+#leftMenu{
+    width: 12%;
+    background-color: rgb(239, 236, 236);
+    height: 100vh;
+}
+#wikiLogo{
+    text-align: center;
+}
+#wikiLogo img{
+    margin-top: 10px;
+    width: 120px;
+}
+.mainPage,.Contribute{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.mainPage a{
+    color: rgb(88, 125, 135);
+    text-decoration: none;
+}
+#mainContainer{
+    width: 100%;
+}
+#subjectcontent{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cord1 p{
+    float: left;
+}
+.cord2 p{
+    float: right;
+    color: rgb(88, 125, 135);
+}
+
+.universityDetail{
+    display: flex;
+
+}
+.universityDetailRight{
+    float: left;
+    width: 100%;
+    padding-right: 20px;
+}
+.describeInfoOfUniversity{
+    float: right;
+    width: 25%;
+    height: 80vh;
+}
+.describeInfo{
+    width: 100%;
+    height: 94vh;
+    border: 1px solid black;
+}
+.unilogo{
+    text-align: center;
+    margin-top: 20px;
+    /* width: 80%; */
+}
+.details{
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+.fullimg{
+    text-align: center;
+}
+.colorblue{
+    color: rgb(88, 125, 135);
+}
+#contents{
+    margin-top: 20px;
+    width: 13%;
+    border: 1px solid black;
+    padding: 15px;
+}
+#imgWithDetail{
+    display: flex;
+}
+#uniMainGate{
+    border: 1px solid black;
+    padding: 5px;
+    background: rgb(238, 238, 238);
+}
+#imgWithDetail img{
+    width: 235px;
+}
